@@ -1,0 +1,13 @@
+User-agent: *
+Disallow: /wp-admin/
+Disallow: /cgi-bin/
+Disallow: /tmp/
+Disallow: /cart/
+Disallow: /checkout/
+Disallow: /search/
+
+# Cho phép truy cập tất cả nội dung còn lại
+Allow: /
+
+# Đường dẫn tới sitemap để Google dễ index
+Sitemap: https://kingbep.vn/sitemap.xml
